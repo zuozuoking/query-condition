@@ -5,7 +5,7 @@ name: Build and Publish Node.js Package
 on:
   push:
     branches:
-      - c*
+      - m*
 
 env:
   NPM_TOKEN: ${{secrets.NPM_TOKEN}}
@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 16
 
-      # - name: Install Dependency
-      #   run: yarn install --frozen-lockfile
+      - name: Install Dependency
+        run: yarn install --frozen-lockfile
 
       - name: Build and Publish
         run: yarn release
