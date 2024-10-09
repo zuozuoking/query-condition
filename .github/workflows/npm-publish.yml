@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install Dependency
-        run: yarn install --frozen-lockfile
+      # - name: Install Dependency
+      # run: yarn install --frozen-lockfile
 
       - name: Build and Publish
         run: yarn release
