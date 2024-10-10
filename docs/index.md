@@ -1,4 +1,5 @@
 ---
+title: 依铭组件库
 hero:
   title: library
   description: A react library developed with dumi

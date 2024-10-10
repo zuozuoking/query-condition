@@ -5,7 +5,7 @@ name: Build and Publish Node.js Package
 on:
   push:
     branches:
-      - m*
+      - p*
 
 env:
   NPM_TOKEN: ${{secrets.NPM_TOKEN}}
