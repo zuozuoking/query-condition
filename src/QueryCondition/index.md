@@ -1,9 +1,18 @@
-# QueryCondition
+---
+nav: 组件库
+---
 
-This is an example component.
+# 搜索组件
 
 ```jsx
-import { QueryCondition, QueryType } from 'table';
+/**
+ * compact: false
+ * title: 我是标题
+ * description: 我是简介，我可以用 `Markdown` 来编写
+ * inline: true
+ */
+
+import { QueryCondition, QueryType } from 'query-condition';
 
 export default () => (
   <QueryCondition
