@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  base: '/ym-components/',
-  publicPath: '/ym-components/',
+  base: '/query-condition/',
+  publicPath:'/query-condition/',
   themeConfig: {
     name: '依铭',
   },
